@@ -1,16 +1,17 @@
-div.background {
-  border: 3%;
-  width: auto;
+/* FONTS FOR WEBSITE */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Quicksand_Dash.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: font_select;
+    src: url(../fonts/Quicksand-Italic.otf);
+
 }
 
+/* DEFINING IMAGES AND PLACEMENT */
 
-div.header {
-  padding: 4%;
-  width: auto;
-  height: 20%;
-
-
-}
 
 div.sectionA {
   padding: 4%;
@@ -31,6 +32,7 @@ div.sectionA img:hover{
   transform: scale(1.1);
   opacity: 1;
 }
+
 
 
 
@@ -57,3 +59,38 @@ div.sectionB img:hover{
 .clear {
   clear: both;
 }
+
+
+
+
+
+
+
+div.textBoxRight {
+  width: 800px;
+  text-align: right;
+  float: right;
+}
+
+div.textBoxRight p {
+  font-family: myFirstFont;
+  color: white;
+  font-size: 40px;
+  text-align: right;
+
+}
+div.textBoxLeft {
+  width: 800px;
+  text-align: left;
+  float: left;
+}
+
+div.textBoxLeft p {
+  font-family: myFirstFont;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+
+}
+
+/* SET UP TEXT BOXES FOR ANIMAL DESCRIPTION */
