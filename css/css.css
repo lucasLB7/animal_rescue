@@ -1,0 +1,59 @@
+div.background {
+  border: 3%;
+  width: auto;
+}
+
+
+div.header {
+  padding: 4%;
+  width: auto;
+  height: 20%;
+
+
+}
+
+div.sectionA {
+  padding: 4%;
+  border: 2px white solid;
+  background-color: #C0C0C0;
+  height: 800px;
+}
+div.sectionA img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: left;
+  height: 600px;
+  width: 600px;
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
+}
+div.sectionA img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+
+
+/* sectionB is inverse of sectionA with image on the right*/
+div.sectionB {
+  padding: 4%;
+  border: 2px white solid;
+  background-color: #909090;
+  height: 800px;
+}
+div.sectionB img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: right;
+  height: 600px;
+  width: 600px;
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
+}
+div.sectionB img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+.clear {
+  clear: both;
+}
