@@ -4,14 +4,26 @@
     src: url(../fonts/Quicksand_Dash.otf);
     font-weight: bold;
 }
+
 @font-face {
     font-family: font_select;
-    src: url(../fonts/Quicksand-Italic.otf);
-
+    src: url(../fonts/Quicksand-LightItalic.otf);
+    font-weight: bold;
 }
 
 /* DEFINING IMAGES AND PLACEMENT */
-
+div.header {
+  height: 400px;
+  text-align: center;
+  background-image: url(../images/digital-green.jpg);
+}
+div.header h1 {
+  padding: 7%;
+  height: 400px;
+  font-size: 100px;
+  color: white;
+  font-family: font_select;
+}
 
 div.sectionA {
   padding: 4%;
