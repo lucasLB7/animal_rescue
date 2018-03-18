@@ -1,4 +1,5 @@
-/* FONTS FOR WEBSITE */
+/* FONTS FOR WEBSITE
+We import */
 @font-face {
     font-family: myFirstFont;
     src: url(../fonts/Quicksand_Dash.otf);
@@ -11,11 +12,17 @@
     font-weight: bold;
 }
 
+
+
+
+
+
+
 /* DEFINING IMAGES AND PLACEMENT */
 div.header {
   height: 400px;
   text-align: center;
-  background-image: url(../images/digital-green.jpg);
+  background-image: url(images/digital-green.jpg);
 }
 div.header h1 {
   padding: 7%;
@@ -25,8 +32,15 @@ div.header h1 {
   font-family: font_select;
 }
 
+
+
+
+
+
+
+
+
 div.sectionA {
-  padding: 4%;
   border: 2px white solid;
   background-color: #C0C0C0;
   height: 800px;
@@ -43,14 +57,19 @@ div.sectionA img {
 div.sectionA img:hover{
   transform: scale(1.1);
   opacity: 1;
+  transform: rotate(-10deg);
+}
+div.sectionA img:hover::before{
+
 }
 
 
 
 
-/* sectionB is inverse of sectionA with image on the right*/
+
+
+/*sectionB is inverse of sectionA with image on the right*/
 div.sectionB {
-  padding: 4%;
   border: 2px white solid;
   background-color: #909090;
   height: 800px;
@@ -67,10 +86,14 @@ div.sectionB img {
 div.sectionB img:hover{
   transform: scale(1.1);
   opacity: 1;
+  transform: rotate(-10deg);
 }
 .clear {
   clear: both;
 }
+
+
+
 
 
 
@@ -105,4 +128,38 @@ div.textBoxLeft p {
 
 }
 
+
+
+
+
+
+
+
+div.footer {
+  position: absolute;
+  width: 98%;
+  height: 300px;
+  background-color: black;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+div.footer img {
+  float: left;
+  border: 3px white solid;
+  height: 200px;
+}
+div.footer h1 {
+  padding: 1%;
+  font-family: myFirstFont;
+  color: white;
+  font-size: 40px;
+  text-align: right;
+}
+div.footer p {
+  padding-right: 2%;
+  font-family: myFirstFont;
+  color: white;
+  font-size: 20px;
+  text-align: right;
+}
 /* SET UP TEXT BOXES FOR ANIMAL DESCRIPTION */
